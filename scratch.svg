@@ -1,0 +1,21 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='240' height='200'>
+  <!-- Background -->
+  <rect width='240' height='200' fill='#fcf9f6' />
+  
+  <g stroke-linecap='round' stroke-linejoin='round'>
+    <!-- Heart 1 -->
+    <g transform='translate(60, 50) scale(1) rotate(-8)'>
+      <!-- Smudge -->
+      <path d='M-10,-2 L15,-2 M-15,10 L10,10' stroke='#f3a5b6' stroke-width='22' opacity='0.8' />
+      <!-- Outline -->
+      <path d='M -2,-8 C -20,-25 -35,-5 -2,22 L 0,25 L 2,22 C 35,-5 20,-25 2,-8' fill='none' stroke='#1c1b1b' stroke-width='3.5' />
+    </g>
+    <!-- Heart 2 -->
+    <g transform='translate(180, 150) scale(0.9) rotate(12)'>
+      <!-- Smudge -->
+      <path d='M-12,-4 L12,-4 M-8,8 L16,8' stroke='#f3a5b6' stroke-width='20' opacity='0.8' />
+      <!-- Outline -->
+      <path d='M -2,-8 C -20,-25 -35,-5 -2,22 L 0,25 L 2,22 C 35,-5 20,-25 2,-8' fill='none' stroke='#1c1b1b' stroke-width='3.5' />
+    </g>
+  </g>
+</svg>

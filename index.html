@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For You</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Quicksand:wght@500;600;700&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-decor" aria-hidden="true">
+    <span class="blob blob-a"></span>
+    <span class="blob blob-b"></span>
+    <span class="blob blob-c"></span>
+    <span class="blob blob-d"></span>
+    <span class="blob blob-e"></span>
+    <div class="big-heart"></div>
+    <span class="bg-heart"></span>
+    <span class="bg-heart"></span>
+    <span class="bg-heart"></span>
+    <span class="bg-heart"></span>
+    <span class="bg-heart"></span>
+    <span class="bg-heart"></span>
+    <span class="bg-heart"></span>
+    <span class="bg-heart"></span>
+    <span class="bg-heart"></span>
+    <span class="bg-heart"></span>
+    <span class="bg-heart"></span>
+    <span class="bg-heart"></span>
+    <span class="bg-heart"></span>
+    <span class="bg-heart"></span>
+    <span class="bg-heart"></span>
+    <span class="bg-heart"></span>
+    <span class="bg-heart"></span>
+    <span class="bg-heart"></span>
+    <span class="bg-heart"></span>
+    <span class="bg-heart"></span>
+    <span class="bg-heart"></span>
+    <span class="bg-heart"></span>
+    <span class="bg-heart"></span>
+    <span class="bg-heart"></span>
+    <span class="sparkle"></span>
+    <span class="sparkle"></span>
+    <span class="sparkle"></span>
+    <span class="sparkle"></span>
+    <span class="sparkle"></span>
+    <span class="sparkle"></span>
+    <span class="sparkle"></span>
+    <span class="sparkle"></span>
+    <span class="sparkle"></span>
+    <span class="sparkle"></span>
+    <span class="sparkle"></span>
+    <span class="sparkle"></span>
+    <span class="sparkle"></span>
+    <span class="sparkle"></span>
+    <span class="sparkle"></span>
+    <span class="sparkle"></span>
+  </div>
+  <main class="page-shell">
+    <section class="confession-card" aria-live="polite">
+
+      <h1>Please Enter Your Name</h1>
+      <div class="face" aria-hidden="true">&#128562;</div>
+
+      <form id="nameForm" class="name-form">
+        <label class="sr-only" for="nameInput">Your name</label>
+        <input id="nameInput" type="text" autocomplete="name" placeholder="your name" maxlength="28" required>
+        <button type="submit">Submit</button>
+      </form>
+
+      <article id="letter" class="letter" hidden></article>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
